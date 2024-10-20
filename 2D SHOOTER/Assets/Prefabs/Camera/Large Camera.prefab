@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  cameraMovementStyle: 0
+  cameraMovementStyle: 2
   freeCameraMouseTracking: 0.75
   maxDistanceFromTarget: 5
   cameraZCoordinate: -10
