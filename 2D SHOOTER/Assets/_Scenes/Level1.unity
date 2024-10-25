@@ -487,7 +487,7 @@ PrefabInstance:
       objectReference: {fileID: 612328629}
     - target: {fileID: 4867940027157724161, guid: fb3863dec9ed61644a34a2455dd1bc1d, type: 3}
       propertyPath: enemiesToDefeat
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4867940027157724161, guid: fb3863dec9ed61644a34a2455dd1bc1d, type: 3}
       propertyPath: gameOverPageIndex
@@ -3683,6 +3683,14 @@ PrefabInstance:
       propertyPath: deathEffect
       value: 
       objectReference: {fileID: 3562651836113712045, guid: aee1688b385340b4bab2b46707955895, type: 3}
+    - target: {fileID: 5309521852057381009, guid: bdd9870d34edafd4399c231fee8adf6c, type: 3}
+      propertyPath: currentLives
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309521852057381009, guid: bdd9870d34edafd4399c231fee8adf6c, type: 3}
+      propertyPath: maximumLives
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 9065522139267810469, guid: bdd9870d34edafd4399c231fee8adf6c, type: 3}
       propertyPath: m_SortingLayer
       value: 0
