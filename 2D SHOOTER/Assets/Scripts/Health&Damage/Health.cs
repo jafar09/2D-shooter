@@ -260,4 +260,18 @@ public class Health : MonoBehaviour
         }
         Destroy(this.gameObject);
     }
+
+    public void AddLife(int lifeAmount)
+    {
+     currentLives += lifeAmount;
+     if (currentLives > maximumLives)
+     {
+         currentLives = maximumLives; // Hayotlarni maximumdan oshirmaslik
+     }
+
+     Debug.Log("Current Lives: " + currentLives);
+    }
+
+    
+
 }
