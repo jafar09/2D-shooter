@@ -272,7 +272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171991, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -582,7 +582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171991, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -818,7 +818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171991, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -989,6 +989,10 @@ PrefabInstance:
     - target: {fileID: 8282131552441171991, guid: fd821cc36f666d54592388e02f75fcb5, type: 3}
       propertyPath: m_Name
       value: StraightShooter
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171991, guid: fd821cc36f666d54592388e02f75fcb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171991, guid: fd821cc36f666d54592388e02f75fcb5, type: 3}
       propertyPath: m_TagString
@@ -1192,6 +1196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChaserEnemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 111767558614867189, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 111767558614867191, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -1288,6 +1296,10 @@ PrefabInstance:
     - target: {fileID: 8282131552441171991, guid: fd821cc36f666d54592388e02f75fcb5, type: 3}
       propertyPath: m_Name
       value: StraightShooter (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171991, guid: fd821cc36f666d54592388e02f75fcb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171991, guid: fd821cc36f666d54592388e02f75fcb5, type: 3}
       propertyPath: m_TagString
@@ -1390,6 +1402,10 @@ PrefabInstance:
     - target: {fileID: 8282131552441171991, guid: fd821cc36f666d54592388e02f75fcb5, type: 3}
       propertyPath: m_Name
       value: StraightShooter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171991, guid: fd821cc36f666d54592388e02f75fcb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171991, guid: fd821cc36f666d54592388e02f75fcb5, type: 3}
       propertyPath: m_TagString
@@ -1927,6 +1943,10 @@ PrefabInstance:
       value: StraightShooter (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171991, guid: fd821cc36f666d54592388e02f75fcb5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171991, guid: fd821cc36f666d54592388e02f75fcb5, type: 3}
       propertyPath: m_TagString
       value: MainCamera
       objectReference: {fileID: 0}
@@ -1993,6 +2013,7 @@ GameObject:
   - component: {fileID: 1082349504}
   - component: {fileID: 1082349503}
   - component: {fileID: 1082349505}
+  - component: {fileID: 1082349506}
   m_Layer: 5
   m_Name: 'High Score Text '
   m_TagString: Untagged
@@ -2008,7 +2029,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082349501}
   m_LocalRotation: {x: 0.08682413, y: -0.08682413, z: 0.0075961305, w: 0.99240386}
-  m_LocalPosition: {x: 0, y: 0, z: 1.9}
+  m_LocalPosition: {x: 0, y: 0, z: -4.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2016,7 +2037,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 10, y: -10, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 18.8, y: -39.9}
+  m_AnchoredPosition: {x: 6.800049, y: -35.200012}
   m_SizeDelta: {x: 200, y: 40}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1082349503
@@ -2074,6 +2095,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayText: {fileID: 1082349503}
+--- !u!114 &1082349506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082349501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52c9a4613bbc6ce4b809b21678067793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teamId: 0
+  defaultHealth: 1
+  maximumHealth: 1
+  currentHealth: 1
+  invincibilityTime: 3
+  isAlwaysInvincible: 0
+  useLives: 0
+  currentLives: 3
+  maximumLives: 5
+  deathEffect: {fileID: 0}
+  hitEffect: {fileID: 0}
 --- !u!1 &1092084264
 GameObject:
   m_ObjectHideFlags: 0
@@ -2281,7 +2325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171991, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2499,7 +2543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 0.9
   m_ReferenceResolution: {x: 800, y: 600}
@@ -2549,8 +2593,8 @@ RectTransform:
   - {fileID: 1843956720}
   - {fileID: 695607260}
   - {fileID: 1826218895}
-  - {fileID: 1700947806}
   - {fileID: 1082349502}
+  - {fileID: 1700947806}
   - {fileID: 2009971739}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2746,6 +2790,10 @@ PrefabInstance:
     - target: {fileID: 111767558614867189, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
       propertyPath: m_Name
       value: ChaserEnemy (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111767558614867189, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 111767558614867191, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
       propertyPath: m_SortingOrder
@@ -3065,6 +3113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChaserEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 111767558614867189, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 111767558614867191, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -3213,9 +3265,8 @@ GameObject:
   - component: {fileID: 1700947806}
   - component: {fileID: 1700947809}
   - component: {fileID: 1700947808}
-  - component: {fileID: 1700947807}
   m_Layer: 5
-  m_Name: ' count Score Text '
+  m_Name: Life Count
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3229,7 +3280,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700947805}
   m_LocalRotation: {x: 0.08682413, y: -0.08682413, z: 0.0075961305, w: 0.99240386}
-  m_LocalPosition: {x: 0, y: 0, z: -9.5}
+  m_LocalPosition: {x: 0, y: 0, z: -10.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3237,22 +3288,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 10, y: -10, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 17, y: -69.5}
+  m_AnchoredPosition: {x: 7.5, y: -66.7}
   m_SizeDelta: {x: 200, y: 40}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &1700947807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700947805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14346f8fcc871204299029fedba2a3eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 1700947808}
 --- !u!114 &1700947808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3286,7 +3324,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score sould  : 0'
+  m_Text: 'Life Count: 1'
 --- !u!222 &1700947809
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3411,7 +3449,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826218894}
   m_LocalRotation: {x: 0.08682413, y: -0.08682413, z: 0.0075961305, w: 0.99240386}
-  m_LocalPosition: {x: 0, y: 0, z: 2.4}
+  m_LocalPosition: {x: 0, y: 0, z: 3.5999947}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3419,7 +3457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 10, y: -10, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 18.1, y: -5}
+  m_AnchoredPosition: {x: 5.9000244, y: 0.7999878}
   m_SizeDelta: {x: 200, y: 40}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1826218896
@@ -4107,6 +4145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChaserEnemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 111767558614867189, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 111767558614867191, guid: cfd62ad4c55daa942bae8f75211b08e0, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -4394,6 +4436,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3156086969072787408, guid: bdd9870d34edafd4399c231fee8adf6c, type: 3}
+      propertyPath: LifeCount
+      value: 
+      objectReference: {fileID: 1700947808}
     - target: {fileID: 5184011668757864756, guid: bdd9870d34edafd4399c231fee8adf6c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1
@@ -4435,6 +4481,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5309521852057381009, guid: bdd9870d34edafd4399c231fee8adf6c, type: 3}
+      propertyPath: LifeCount
+      value: 
+      objectReference: {fileID: 1700947808}
+    - target: {fileID: 5309521852057381009, guid: bdd9870d34edafd4399c231fee8adf6c, type: 3}
       propertyPath: hitEffect
       value: 
       objectReference: {fileID: 191473544629845578, guid: f3d891e5ef581724baf5dc4fcb4552fd, type: 3}
@@ -4442,6 +4492,10 @@ PrefabInstance:
       propertyPath: deathEffect
       value: 
       objectReference: {fileID: 3562651836113712045, guid: aee1688b385340b4bab2b46707955895, type: 3}
+    - target: {fileID: 5309521852057381009, guid: bdd9870d34edafd4399c231fee8adf6c, type: 3}
+      propertyPath: currentLives
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9065522139267810469, guid: bdd9870d34edafd4399c231fee8adf6c, type: 3}
       propertyPath: m_SortingLayer
       value: 0

@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 /// <summary>
 /// This class controls player movement
 /// </summary>
 public class Controller : MonoBehaviour
 {
+    public Text LifeCount;
     [Header("GameObject/Component References")]
     [Tooltip("The animator controller used to animate the player.")]
     public RuntimeAnimatorController animator = null;
@@ -83,6 +85,7 @@ public class Controller : MonoBehaviour
     private void Start()
     {
         SetupInput();
+        LifeCount.text = "LifeCount: "  + GetComponent<Health>().currentLives.ToString();
     }
 
     /// <summary>
