@@ -85,7 +85,7 @@ public class Controller : MonoBehaviour
     private void Start()
     {
         SetupInput();
-        LifeCount.text = "LifeCount: "  + GetComponent<Health>().currentLives.ToString();
+        LifeCount.text = "Life Count: "  + GetComponent<Health>().currentLives.ToString();
     }
 
     /// <summary>
