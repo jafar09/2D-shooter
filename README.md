@@ -6,3 +6,4 @@
 ![Снимок экрана 2024-11-14 115113](https://github.com/user-attachments/assets/885d4ee6-d1d1-445b-86b9-d3bc17f50650)
 
 2D-SHOOTER LAVHALAR 
+![Снимок экрана (252)](https://github.com/user-attachments/assets/f6b36a69-d85b-4466-8b25-4dfcd1e12aba)
